@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formdangnhap</title>
+</head>
+<style>
+    fieldset{width:500px;}
+    body{margin:70px;}
+</style>
+<body>
+    <form>
+        <h1>Đăng ký tài khoản</h1>
+        <fieldset>
+            <legend><b>Thông tin cá nhân</b></legend>
+            <br><b>Họ và tên :</b> <input type="text" placeholder="Nhập họ và tên"><br><br>
+            <b>Email :</b> <input type="email" placeholder="Nhập email"><br><br>
+            <b>Số điện thoại :</b> <input type="tel" placeholder="Nhập SĐT"><br><br>
+            <b>Mật khẩu :</b> <input type="password" placeholder="Password"><br><br>
+            <b>Giới tính : </b> <label><input name="hobby" value="Men" type="radio"><b> Nam</b></label>
+            <b> <label><input name="hobby" value="Woman" type="radio"><b> Nữ</b></label>
+            <b> <label><input name="hobby" value="Other" type="radio"><b> Khác</b></label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Thông tin bổ sung</b></legend>
+            <br><b>Ngày sinh : </b><input type="date"><br><br>
+            <b>Nghề nghiệp :</b> <select name="job">
+            <option value="student">Sinh viên</option>
+            <option value="worker">Nhân viên</option>
+            <option value="other">Khác</option>
+            </select>
+        </fieldset>
+        <div style="margin-left: 2px;">
+            <br><input type="submit" value="Đăng ký" style="background-color:skyblue">
+            <input type="reset" value="Xóa" style="background-color: skyblue">
+        </div>
+    <form>
+</body>
+</html>
